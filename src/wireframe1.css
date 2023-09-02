@@ -1,0 +1,91 @@
+.component1{
+    width: 100vw;
+    height: 6vh;
+    background-color: #fff;
+}
+.btn1{
+    margin: 3px 0 0 30px;
+    height: 30px;
+    background-color:#D1D0D1;
+    border-radius:px;
+    border: none;
+    font-size: medium;
+}
+
+.inner{
+    /* position: relative; */
+    display: flex;
+    flex-direction: row;
+    height: calc(100vh - 7vh - 6vh - 10vh);
+    width: 100vw;
+    background-color: antiquewhite;
+}
+
+.component2{
+    position: relative;
+    /* width :25%; */
+    background-color: #E1EAEC;
+    max-height: 100%;
+    min-width: 100px;
+    overflow: auto;
+    border-top: 2px solid #727272;
+    overflow: auto;
+}
+
+.boxes {
+    margin: 15px 15px 15px 15px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, max(calc(33.33% - 15px), 80px));
+    column-gap: 15px;
+    row-gap: 15px;
+  }
+  
+  .box {
+    position: relative;
+    background-color: #D1D1D0;
+    padding-bottom: 100%;
+  }
+  
+
+.component3{
+    position: relative;
+    /* width :60%; */
+    background-color: #fff;
+    overflow: hidden;
+    border-top: 2px solid #727272;
+}
+
+.component4{
+    /* width :15%; */
+    background-color: #E1EAEC;
+    overflow: auto ;
+    border-top: 2px solid #727272;
+}
+
+.divider1{
+    height: 100%;
+    background-color: #013443;
+    cursor: e-resize;
+}
+
+.divider2{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    background-color: #013443;
+    cursor: e-resize;
+}
+
+.ebox{
+    position:absolute;
+    height: 200px;
+    width: 200px;
+    background-color: #D1D1D0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ebox:hover{
+    cursor: grab;
+}
